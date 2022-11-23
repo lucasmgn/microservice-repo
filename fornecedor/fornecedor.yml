@@ -7,4 +7,4 @@ spring:
     url: jdbc:mysql://localhost/fornecedorLoja?createDatabaseIfNotExist=true&serverTimezone=UTC
   jpa:
     hibernate:
-      ddl-auto: update
+      ddl-auto: create
