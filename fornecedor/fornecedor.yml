@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: 'fornecedor'
+  datasource:
+    password: '#Ilmpls260202#'
+    username: root
+    url: jdbc:mysql://localhost/fornecedorLoja?createDatabaseIfNotExist=true&serverTimezone=UTC
+  jpa:
+    hibernate:
+      ddl-auto: update
